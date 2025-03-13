@@ -1,6 +1,6 @@
 # Geo Profile Generator
 
-This Python script generates a dataset of fictional individuals with realistic German attributes and visualizes their geographical distribution on an interactive map. 
+This Python Jupyter Notebook generates a dataset of fictional individuals with realistic German attributes and visualizes their geographical distribution on an interactive map. 
 It leverages the `Faker` library for realistic data generation and `Folium` for map visualization, making it a versatile tool for testing, prototyping, or educational purposes.
 
 ![Screenshot 2025-03-13 at 11 57 15](https://github.com/user-attachments/assets/1048d74c-7a78-4fb9-8ed1-17e9ea1fc69f)
@@ -21,7 +21,7 @@ It leverages the `Faker` library for realistic data generation and `Folium` for 
   - Purchase details (price, quantity, sales tax, purchase type, total amount)
 
 - **Data Generation**:
-  - Generates profiles for 113 German cities with realistic ZIP code prefixes.
+  - Generates profiles for German cities with realistic ZIP code prefixes.
   - Progress updates printed at 10% intervals during generation.
   - Optimized with list comprehension for large datasets.
 
@@ -37,7 +37,7 @@ It leverages the `Faker` library for realistic data generation and `Folium` for 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/german-profile-generator.git
+   git clone https://github.com/yourusername/geo-profile-generator.git
    cd german-profile-generator
 
 2. Set Up a Virtual Environment (optional but recommended):
@@ -67,7 +67,7 @@ Run the script with default settings (1000 profiles, Excel/CSV export, map gener
 python script.py
 ```
 
-Customize the number of profiles and output options:
+Customize the number of profiles and output options (for example 500 profiles):
 ```python
 from script import main
 # Generate 500 profiles, save to Excel and CSV, and create a map
