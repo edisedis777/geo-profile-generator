@@ -1,7 +1,5 @@
 # Geo Profile Generator
-
 This Python Jupyter Notebook generates a dataset of fictional individuals with realistic German attributes and visualizes their geographical distribution on an interactive map. 
-It leverages the `Faker` library for realistic data generation and `Folium` for map visualization, making it a versatile tool for testing, prototyping, or educational purposes.
 
 ![Screenshot 2025-03-13 at 11 57 15](https://github.com/user-attachments/assets/1048d74c-7a78-4fb9-8ed1-17e9ea1fc69f)
 
@@ -9,7 +7,6 @@ It leverages the `Faker` library for realistic data generation and `Folium` for 
 
 
 ## Features
-
 - **Profile Attributes**:
   - Unique ID (UUID)
   - Salutation (Herr/Frau)
@@ -34,7 +31,6 @@ It leverages the `Faker` library for realistic data generation and `Folium` for 
   - Detailed popups showing ID, name, address, email, phone, birthday, purchase type, quantity (Stuckzahl), sales tax, and total amount.
 
 ## Installation
-
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/geo-profile-generator.git
@@ -81,7 +77,6 @@ df = main(num_profiles=500, save_excel=True, save_csv=True, create_map=True)
 
 ## Example Map
 The map features:
-
 - Blue markers for "Herr" (males) with fa-male icons.
 - Pink markers for "Frau" (females) with fa-female icons.
 - Layer control to toggle gender visibility.
