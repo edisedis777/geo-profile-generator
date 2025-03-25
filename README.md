@@ -1,10 +1,9 @@
 # Geo Profile Generator
-This Python Jupyter Notebook generates a dataset of fictional individuals with realistic German attributes and visualizes their geographical distribution on an interactive map. 
+This Python Jupyter Notebook generates a dataset of fictional individuals with realistic German attributes and visualizes their geographical distribution on an interactive map.
 
 ![Screenshot 2025-03-13 at 11 57 15](https://github.com/user-attachments/assets/1048d74c-7a78-4fb9-8ed1-17e9ea1fc69f)
 
 ![Screenshot 2025-03-13 at 11 58 08](https://github.com/user-attachments/assets/fa500d65-c2a9-4d5b-9b69-e1f871f006b7)
-
 
 ## Features
 - **Profile Attributes**:
