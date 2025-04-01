@@ -1,4 +1,9 @@
 # Geo Profile Generator
+[![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)](#)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 This Python Jupyter Notebook generates a dataset of fictional individuals with realistic German attributes and visualizes their geographical distribution on an interactive map.
 
 ![Screenshot 2025-03-13 at 11 57 15](https://github.com/user-attachments/assets/1048d74c-7a78-4fb9-8ed1-17e9ea1fc69f)
